@@ -8,10 +8,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
     <div id="nav">
     <h1>MedoKnow</h1>
     </div>
+    <div id="navbar">
+        <div id="home" class="navicon">
+            <a href="#intro" target="_self" title="HOME">
+                <i id="ni" class="fa-solid fa-house"></i></a>
+            </div>
+        <div id="searchh" class="navicon"  >
+            <a href="#search" target="_self" title="SEARCH">
+                <i id="ni" class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div id="aboutt" class="navicon">
+            <a href="#about" target="_self" title="ABOUT US">
+                <i id="ni" class="fa-solid fa-circle-info"></i></a>
+        </div>
+        <div id="contact" class="navicon">
+            <a href="" target="_self" title="CONTACT US">
+                <i id="ni" class="fa-solid fa-address-book"></i>
+            </a>
+        </div>
+    </div>
+</header>
     <div id="search-sec">
+        <div id="intro">
+            <h1>YOUR MEDICAL GUIDE </h1>
+            <P>Get accurate, up-to-date information about medications. Our platform helps you understand your medicine better with detailed insights and professional data.</P>
+            <div id="inner-intro">
+                <div class="infoos">
+                   <div id="ic"> <i class="fa-solid fa-shield"></i></div>
+                    <h2>Reliable Information</h2>
+                    <p>Access verified medical information from trusted sources</p>
+                    </div>
+                    <div class="infoos">
+                        <div id="ic"> <i class="fa-solid fa-capsules" style="color: #eaeef6;"></i></div>
+                         <h2>Reliable Information</h2>
+                         <p>Access verified medical information from trusted sources</p>
+                         </div>
+                         <div class="infoos">
+                            <div id="ic"> <i class="fa-solid fa-info" style="color: #dfe2e7;"></i></div>
+                             <h2>Reliable Information</h2>
+                             <p>Access verified medical information from trusted sources</p>
+                         </div>
+            </div>
+        </div>
         <div id="search">
             <h3>Medicine Information</h3>
             <p>Enter the name of any medicine to get detailed information</p>
@@ -20,10 +62,46 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </div>
+       
         <div id="data">
-            <div id="medname">PARACETAMOL</div>
+            <div id="loader"><i class="fa-solid fa-capsules fa-flip" style="color: #c70a0a;"></i></div>
+            <div id="medname"></div>
             <div id="desp"></div>
 
+        </div>
+        <div id="about">
+            <h1>WHY CHOOSE US</h1>
+            <p>We're committed to providing accurate, reliable, and easy-to-understand medical information to help you make informed decisions about your health.</p>
+            <div id="inner-about">
+                <div class="aboutin">
+                    <div class="ico">
+
+                    </div>
+                    <h2></h2>
+                    <p></p>
+                </div>
+                <div class="aboutin">
+                    <div class="ico">
+
+                    </div>
+                    <h2></h2>
+                    <p></p>
+                </div>
+                <div class="aboutin">
+                    <div class="ico">
+
+                    </div>
+                    <h2></h2>
+                    <p></p>
+                </div>
+                <div class="aboutin">
+                    <div class="ico">
+
+                    </div>
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
