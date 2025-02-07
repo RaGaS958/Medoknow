@@ -28,7 +28,7 @@
     background-color: blue;
     justify-content: space-between;
     background: linear-gradient(to right,rgb(25, 25, 185),rgb(18, 131, 206));
-   
+   /* background: linear-gradient(to right,#2fe085,#66eda7); */
 }
 .navicon
 {
@@ -51,7 +51,7 @@
    align-items: center;
     flex-direction: column;
     background: linear-gradient(to right,rgb(11, 134, 124),rgb(38, 143, 212),rgb(20, 152, 204,0.5));
-background-image: url("file-CEdJsz4QyyBbmFx5445SWf.webp");
+background-image: url("freepik__make-it-useful-for-website-background__56531.png");
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -59,14 +59,14 @@ background-repeat: no-repeat;
 {
     position: relative;
   top: 9rem;
-  color: azure;
+  color: rgb(8, 26, 26);
   display: flex;
 flex-direction: column;
 align-items: center;
 margin-left: 2rem;
 margin-right: 2rem;
 width: 100%;
-background-image: url("backc.avif");
+background-image: url("medicine-concept-with-medical-equipment-copyspace.jpg");
 background-size: cover;
 
 background-repeat: no-repeat;
@@ -75,19 +75,19 @@ background-repeat: no-repeat;
 {
     font-size: 4rem;
     margin-top: 2rem;
-    border: solid ;
-    border-radius: 2rem;
+    /* border: solid ;
+    border-radius: 2rem; */
     text-align: center;
     padding: 1rem;
     border-color: rgb(240, 255, 255,0.4);
 }
 #intro p
 {
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
     width: 90%;
     margin-top: 2rem;
-    color: rgb(240, 255, 255,0.8);
+    color: rgba(4, 20, 20, 0.8);
 }
 #inner-intro
 {
@@ -107,6 +107,7 @@ background-repeat: no-repeat;
     border: 1px azure solid;
     border-color: rgb(240, 255, 255 ,0.7);
     border-radius: 2rem;
+    background-color: azure;
     padding: 1rem;
     margin: 2rem;
 
@@ -118,7 +119,7 @@ background-repeat: no-repeat;
 }
 .infoos p
 {
-    font-size: large;
+    font-size:x-large;
     margin-top: 1rem;
     color: rgb(240, 255, 255,0.7);
     margin-bottom: 2rem;
@@ -128,8 +129,9 @@ background-repeat: no-repeat;
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
-    background-color: rgb(240, 255, 255,0.3);
+    background-color: rgba(82, 100, 100, 0.349);
     display: flex;
+    color: rgb(4, 17, 17);
     align-items: center;
     justify-content: center;
     font-size: xx-large;
@@ -363,7 +365,10 @@ border-top-right-radius:9% ;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(45deg,rgba(101, 18, 150, 0.6),rgba(6, 114, 141, 0.6));
+    /* background:linear-gradient(45deg,rgba(101, 18, 150, 0.6),rgba(6, 114, 141, 0.6)); */
+    background-color: #66eda7;
+    background-image: url("tablets-with-daily-pills-treatment.jpg");
+    background-size: cover;
 }
 #ourteam
 {
@@ -409,8 +414,8 @@ border-top-right-radius:9% ;
 #touch
 {
     height: fit-content;
-    background-color: blue;
-    background: linear-gradient(to right,purple,green);
+    background-color: #66eda7;
+    /* background: linear-gradient(to right,purple,green); */
     padding: 3rem;
 }
 #tou h1
@@ -446,11 +451,11 @@ border-top-right-radius:9% ;
 .detailss i
 {
     color: rgb(175, 13, 89);
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 .detailss p
 {
-    font-size:2rem;
+    font-size:1.3rem;
     margin-bottom: 1rem;
 }
 #phoneit
@@ -464,7 +469,7 @@ border-top-right-radius:9% ;
 }
 #phoneit h1
 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 #warn
@@ -484,7 +489,7 @@ border-top-right-radius:9% ;
 }
 #warn p
 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 #mail
 {
