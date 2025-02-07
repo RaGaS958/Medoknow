@@ -8,11 +8,11 @@ if (window.VANTA) {
         minHeight: 300.00,
         minWidth: 200.00,
         scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0x365b98,
-        shininess: 81.00,
-        waveSpeed: 0.65,
-        zoom: 1.44
+  scaleMobile: 1.00,
+  color: 0x268a98,
+  shininess: 150.00,
+  waveHeight: 22.00,
+  waveSpeed: 1.45
       })
 }
 const but=document.querySelector("#iconse");
@@ -37,7 +37,8 @@ but.addEventListener("click",()=>{
   despp.style.display="none";
     setTimeout(()=>{
       loader.style.display="none";
-      const name=search.value;
+      let name=search.value;
+      name=name.toUpperCase();
     const medi=medName[name];
     medn.innerText=`${name}`;
     medn.style.display="inline"
@@ -45,7 +46,7 @@ but.addEventListener("click",()=>{
     if(medi==undefined)
     {
       
-     nomat.innerText="NO MATCH";
+     nomat.innerText="NO MATCH!!!";
      brandh.innerText="";
        compositionh.innerText="";
        useh.innerText="";
