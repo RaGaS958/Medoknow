@@ -217,15 +217,9 @@ bottom: 3rem;
 {
     font-size: 5rem;
     margin-bottom: 5rem;
+    display: none;
 }
-#about
-{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 30rem;
-    text-align: center;
-}
+
 #medname
 {
     height: 20vh;
@@ -238,13 +232,52 @@ border-top-right-radius:9% ;
     text-align: center;
     font-size: 4rem;
     padding-top:1.5rem ;
+    display: none;
 
 }
 #desp
 {
-    height: 100%;
+    height: fit-content;
+    color: black;
     background-color: mintcream;
     width: 100%;
-    border-bottom-right-radius: 9%;
-    border-bottom-left-radius: 9%;
+    display: none;
+}
+.despp
+{
+   margin: 1rem;
+   padding: 1rem;
+}
+#brand
+{
+
+}
+#compo
+{
+
+}
+#uses
+{
+
+}
+#prec
+{
+
+}
+#sidee
+{
+
+}
+#NOMATCH
+{
+    margin-left: 14rem;
+    font-size: 5rem;
+}
+#about
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30rem;
+    text-align: center;
 }
