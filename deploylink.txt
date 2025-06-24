@@ -1,1 +1,0 @@
-DEPLOYLINK(VERCEL):-https://viveka-hackthon-medoknow-yocz.vercel.app/
